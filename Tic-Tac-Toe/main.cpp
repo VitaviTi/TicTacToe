@@ -5,9 +5,7 @@
 
 int main()
 {
-	std::vector <std::vector <char>> vec{ {'0', 'x', 't'},
-									      {'0', '0', 'x'},
-									      {'x', ' ', '0'}	};
+	std::string str = "0xt00xx 0";
 
 	TicTacToe game;
 
