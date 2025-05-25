@@ -9,10 +9,10 @@ int main()
 
 	TicTacToe game;
 
-	std::cout << game.win(vec, '0') << std::endl;
-	std::cout << game.win(vec, 'x') << std::endl;
+	std::cout << game.win(str, '0') << std::endl;
+	std::cout << game.win(str, 'x') << std::endl;
 
-	std::cout << game.win(vec, '+') << std::endl;
+	std::cout << game.win(str, '+') << std::endl;
 
 	std::cin.get();
 	return 0;
