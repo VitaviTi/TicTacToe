@@ -5,14 +5,15 @@
 
 int main()
 {
-	std::string str = "0xt00xx 0";
+	std::string str = "oxtooxx o";
 
 	TicTacToe game;
 
-	std::cout << game.win(str, '0') << std::endl;
-	std::cout << game.win(str, 'x') << std::endl;
+	std::cout << game.win_o(str) << std::endl;
+	std::cout << game.win_x(str) << std::endl;
 
-	std::cout << game.win(str, '+') << std::endl;
+	str += 'q';
+	std::cout << game.win_x(str) << std::endl;
 
 	std::cin.get();
 	return 0;
